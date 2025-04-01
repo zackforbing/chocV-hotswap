@@ -2,7 +2,7 @@
 
 # this is a work in progress. files are untested. use at your own risk!
 
-This is a fork of the original board, adding a dual footprint hotswap/solder version. The edge cuts had to be modified to fit the hotswap pads, so it won't be compatible with any cases designed for the original. Bottom plate has not been generated, but may not work anyway with kailh sockets. I still need to compare pcb and socket thicknesses.
+This is a fork of the original board, adding a dual footprint hotswap/solder version. The edge cuts had to be modified to fit the hotswap pads, so it won't be compatible with any cases designed for the original. Bottom plate has not been generated, but after comparing thicknesses of the plate and the sockets, they will prootrude by .25mm. This should not be an issue as long as you add bumpons.
 
 A 36 key choc keyboard based on the [Horizon](https://github.com/skarrmann/horizon) 
 construction and a trimmed down [BabyV](https://www.instagram.com/eyeohdesigns/?hl=en) layout!
