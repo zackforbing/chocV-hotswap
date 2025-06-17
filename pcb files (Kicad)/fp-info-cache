@@ -1,4 +1,4 @@
-27147403594410398
+27177138831944629
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -20334,6 +20334,13 @@ connector JST ZH horizontal
 0
 15
 14
+Connector_JST
+Untitled
+
+
+0
+0
+0
 Connector_Molex
 Molex_CLIK-Mate_502382-0270_1x02-1MP_P1.25mm_Vertical
 Molex CLIK-Mate series connector, 502382-0270 (http://www.molex.com/pdm_docs/sd/5023820270_sd.pdf), generated with kicad-footprint-generator
@@ -38597,6 +38604,13 @@ Surface mounted pin header SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_PinHeader_2.54mm
+nice!view
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
 Connector_PinSocket_1.00mm
 PinSocket_1x02_P1.00mm_Vertical
 Through hole straight socket strip, 1x02, 1.00mm pitch, single row (https://gct.co/files/drawings/bc065.pdf), script generated
@@ -108674,6 +108688,69 @@ Varistor VF
 0
 2
 2
+bubble
+1pin_Battery
+Resitance 3 pas
+R
+0
+1
+1
+bubble
+SMD_Diode_Tiny
+Resitance 3 pas
+R
+0
+2
+2
+bubble
+SW_Hotswap_Kailh_Choc_V1_tweaked
+Kailh keyswitch Hotswap Socket
+Kailh Keyboard Choc V1 keyswitch Keyswitch Switch Hotswap Socket Cutout
+0
+2
+2
+bubble
+SW_RESET
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss
+Tactile Switch
+0
+2
+2
+bubble
+Tenting_Puck2_no_pads
+
+
+0
+3
+0
+bubble
+mouse-bite-5mm-slot-with-space-for-track
+
+
+0
+0
+0
+bubble
+nice_nano
+
+
+0
+24
+24
+bubble
+nice_view
+
+
+0
+5
+5
+bubble
+smt-slider-switch
+
+
+0
+7
+4
 horizon-footprints
 D_SOD-123
 Diode SOD-123
@@ -108793,3 +108870,45 @@ Footprint for Seeduino Xiao nRF52840 controllers, through hole and castellated p
 0
 31
 27
+zackforbing
+Double polarity JST-ACH
+
+
+0
+8
+3
+zackforbing
+SW_Hotswap_Kailh_Choc_V1_V2_Bubble
+Kailh keyswitch Hotswap Socket
+Kailh Keyboard Choc V1 keyswitch Keyswitch Switch Hotswap Socket Cutout
+0
+2
+2
+zackforbing
+SW_MSK12C02-HB through hole
+12V 50mA SMD toggle switch, available at LCSC/JLCPCB (C431541)
+switch toggle smd 
+0
+9
+4
+zackforbing
+diode_mask
+
+
+0
+2
+2
+zackforbing
+switch_choc_v1_v2
+
+
+0
+6
+2
+zackforbing
+switch_choc_v1_v2_no_silk
+
+
+0
+6
+2

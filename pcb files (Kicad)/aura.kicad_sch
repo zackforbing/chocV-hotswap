@@ -291,250 +291,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multiple-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "batt voltage-source cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_0_1"
-				(rectangle
-					(start -2.032 1.778)
-					(end 2.032 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -1.397)
-					(end 2.032 -1.651)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.3208 1.1938)
-					(end 1.27 0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.3208 -1.9812)
-					(end 1.27 -2.4892)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.524) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.667) (xy 1.27 2.667)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.175) (xy 0.762 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -675,182 +431,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2131,10 +1711,6 @@
 		(uuid "331dd817-f8c7-4ccc-9b4c-01778eabf49a")
 	)
 	(no_connect
-		(at 237.49 121.92)
-		(uuid "8450b629-9b00-44db-acc5-5164ccf4c6da")
-	)
-	(no_connect
 		(at 259.08 86.36)
 		(uuid "907e4749-3ead-450a-bf49-962bde8f06a2")
 	)
@@ -2149,10 +1725,6 @@
 	(no_connect
 		(at 237.49 119.38)
 		(uuid "b5b0d047-0fec-4f18-8061-a9ca8d858b7c")
-	)
-	(no_connect
-		(at 119.38 129.54)
-		(uuid "df53e3de-e3b4-40ab-8210-e857edf9959c")
 	)
 	(no_connect
 		(at 237.49 114.3)
@@ -2437,16 +2009,6 @@
 			(type default)
 		)
 		(uuid "29d599dd-1c24-4900-8500-660698c41628")
-	)
-	(wire
-		(pts
-			(xy 133.35 121.92) (xy 119.38 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2acaa084-3e4d-465e-bfbd-f0276ddcefb9")
 	)
 	(wire
 		(pts
@@ -3150,16 +2712,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 121.92) (xy 119.38 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df3e647f-6e66-4e25-90ea-a0950d47d2ad")
-	)
-	(wire
-		(pts
 			(xy 146.05 86.36) (xy 146.05 68.58)
 		)
 		(stroke
@@ -3538,6 +3090,26 @@
 			)
 		)
 	)
+	(global_label "soft off"
+		(shape input)
+		(at 199.39 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b2e3fb2-0188-420f-9753-05c7cbfdb0d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col2"
 		(shape input)
 		(at 237.49 96.52 180)
@@ -3758,6 +3330,26 @@
 			)
 		)
 	)
+	(global_label "soft off"
+		(shape input)
+		(at 237.49 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96efbd8a-6c82-4afd-8c6b-3fa2f5a89868")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col1"
 		(shape input)
 		(at 30.48 24.13 90)
@@ -3870,26 +3462,6 @@
 		(uuid "b1fbd443-6160-4c57-8d39-a2afb4b6991f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT-"
-		(shape input)
-		(at 133.35 132.08 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5b5993d-0577-43d1-972e-60f827676661")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,26 +3670,6 @@
 			)
 		)
 	)
-	(global_label "BAT+"
-		(shape input)
-		(at 109.22 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f76fd1cb-da9a-4f30-bc54-063a9f3325cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "chocV-rescue:GND-power")
 		(at 189.23 127 0)
@@ -4208,7 +3760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:SW_SPST_SKQG_WithStem"
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC"
 			(at 194.31 121.92 0)
 			(effects
 				(font
@@ -9675,33 +9227,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 114.3 127 0)
+		(lib_id "chocV-rescue:GND-power")
+		(at 189.23 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00db62f3-721f-4ae8-a724-e245611c64ad")
-		(property "Reference" "PWR1"
-			(at 114.3 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power Switch"
-			(at 114.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-various:SW_MSK12C02-HB"
-			(at 114.3 127 0)
+		(uuid "05fbc32b-becb-474a-9c26-a0f6275843d6")
+		(property "Reference" "#PWR02"
+			(at 189.23 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,8 +9244,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 114.3 127 0)
+		(property "Value" "GND"
+			(at 189.357 146.6342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9719,7 +9271,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 127 0)
+			(at 189.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9728,18 +9280,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c438a3b0-69bf-4ec2-8785-51dd19f732fa")
-		)
-		(pin "2"
-			(uuid "6215e019-2de3-4168-8d96-e2a8fdf45074")
-		)
-		(pin "3"
-			(uuid "5a5eab68-8cc5-454d-ab6b-d16b0dfef00e")
+			(uuid "afbf88cd-e4ff-4747-8c70-542a43a2882e")
 		)
 		(instances
-			(project "chocV-hotswap-solder-xiao"
+			(project "aura"
 				(path "/4fa2c0fe-ec5a-40ab-b5c3-47c4f0712337"
-					(reference "PWR1")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9961,35 +9507,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
-		(at 133.35 127 0)
+		(lib_id "Switch:SW_Push")
+		(at 194.31 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbbb1cee-e9cf-4ff8-8f9a-ab0be4ad586c")
-		(property "Reference" "BAT1"
-			(at 137.16 125.3489 0)
+		(uuid "c6df029a-bb9c-4992-a5d4-7ce03e5441e3")
+		(property "Reference" "SW38"
+			(at 194.31 135.001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Battery"
-			(at 137.16 127.8889 0)
+		(property "Value" "Soft Off"
+			(at 194.31 137.3124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical polarity independent"
-			(at 133.35 125.476 90)
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC"
+			(at 194.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,7 +9541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 125.476 90)
+			(at 194.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10007,7 +9550,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 127 0)
+			(at 194.31 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,15 +9559,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8922fc9-99a2-4dc6-9d03-4bb75a6530fb")
+			(uuid "f801339a-f1d7-41ff-b83f-6d8c573b5be6")
 		)
 		(pin "2"
-			(uuid "20027772-a8b9-43e3-8278-306eb3e8cd1c")
+			(uuid "2b1a76fe-0a3b-4eac-a943-0b9273d8863a")
 		)
 		(instances
-			(project "chocV-hotswap-solder-xiao"
+			(project "aura"
 				(path "/4fa2c0fe-ec5a-40ab-b5c3-47c4f0712337"
-					(reference "BAT1")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
