@@ -772,7 +772,7 @@
       "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "aura.step",
+      "step": "aura bottom plate.step",
       "svg": "",
       "vrml": ""
     },
