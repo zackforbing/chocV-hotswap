@@ -4,6 +4,10 @@
 
 This is a fork of the original board, adding a dual footprint hotswap/solder choc v1/v2 version. ~~The edge cuts had to be modified to fit the hotswap pads, so it won't be compatible with any cases designed for the original~~ just kidding I realized I'm a silly person and I shuld just flip the footprint upside down for affected switches. The hotswap sockets will protrude from the underside of the bottom plate, so small bumpons are recommended.
 
+pcbs have been ordered. need to build one.
+
+(untested) firmware can be found [here](https://github.com/hahahakeebs/zmk-aura)
+
 original readme preserved below
 
 A 36 key choc keyboard based on the [Horizon](https://github.com/skarrmann/horizon)
