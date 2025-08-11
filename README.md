@@ -1,8 +1,10 @@
-# chocV-hotswap
+# Aura
 
 # this pcb is untested. use at your own risk!
 
-This is a fork of the original board, adding a dual footprint hotswap/solder choc v1/v2 version. ~~The edge cuts had to be modified to fit the hotswap pads, so it won't be compatible with any cases designed for the original~~ just kidding I realized I'm a silly person and I shuld just flip the footprint upside down for affected switches. The hotswap sockets will protrude from the underside of the bottom plate, so small bumpons are recommended.
+This is a fork of the original chocV board, adding a dual footprint hotswap/solder choc v1/v2 version, compatibility with xiao nrf52480 plus, and an on-board nice!view connection. ~~The edge cuts had to be modified to fit the hotswap pads, so it won't be compatible with any cases designed for the original~~ just kidding I realized I'm a silly person and I should just flip the footprint upside down for affected switches. The hotswap sockets will protrude from the underside of the bottom plate, so small bumpons are recommended.
+
+A case integrating the bottom plate is in the works.
 
 pcbs have been ordered. need to build one.
 
