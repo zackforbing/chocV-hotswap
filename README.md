@@ -1,14 +1,17 @@
 # Aura
 
-# this pcb is untested. use at your own risk!
+# this pcb is tested, but still, use at your own risk!
+
+![aura front](./images/IMG_4758.jpg "aura front")
+![aura booty](./images/IMG_4759.jpg "aura booty")
 
 This is a fork of the original chocV board, adding a dual footprint hotswap/solder choc v1/v2 version, compatibility with xiao nrf52480 plus, and an on-board nice!view connection. ~~The edge cuts had to be modified to fit the hotswap pads, so it won't be compatible with any cases designed for the original~~ just kidding I realized I'm a silly person and I should just flip the footprint upside down for affected switches. The hotswap sockets will protrude from the underside of the bottom plate, so small bumpons are recommended.
 
 A case integrating the bottom plate is in the works.
 
-pcbs have been ordered. need to build one.
+pcbs have been ordered, built, and confirmed to work.
 
-(untested) firmware can be found [here](https://github.com/hahahakeebs/zmk-aura)
+firmware can be found [here](https://github.com/hahahakeebs/zmk-aura)
 
 original readme preserved below
 

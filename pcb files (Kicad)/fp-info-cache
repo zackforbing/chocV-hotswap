@@ -1,4 +1,4 @@
-27442886852968362
+27446398254900732
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -109774,6 +109774,13 @@ MINEW_MS88SF2
 28
 28
 ms88sf2_oreore
+MODULE_MS88SF3_NRF52840
+
+
+0
+64
+64
+ms88sf2_oreore
 MS88SF3
 
 
@@ -109920,6 +109927,13 @@ switch toggle smd
 0
 9
 4
+zackforbing
+choc hs v1v2 led
+Hotswap footprint for Kailh Choc style switches
+
+0
+6
+2
 zackforbing
 diode_mask
 
